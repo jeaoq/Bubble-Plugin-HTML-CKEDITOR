@@ -1,0 +1,62 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "text",
+    "category": "input forms",
+    "default_dim": {
+        "height": 200,
+        "width": 600
+    },
+    "display": "CkEditor",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1544526438657x893709557522655000/HTML5_Logo_550px.png",
+    "fields": {
+        "AAD": {
+            "caption": "initial content",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "initial_content",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "inital element No",
+            "default_val": "div_12345",
+            "editor": "DynamicValue",
+            "name": "inital_element_number",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Is Full Page?",
+            "default_val": "yes",
+            "editor": "Dropdown",
+            "in_style": false,
+            "name": "is_full_page",
+            "optional": true,
+            "options": "yes,no",
+            "rank": 2
+        }
+    },
+    "icon": "ion-social-html5",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAE": {
+            "caption": "content",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "content",
+            "value": "text"
+        }
+    },
+    "support_autobinding": true
+}
